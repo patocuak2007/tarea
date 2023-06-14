@@ -1,0 +1,198 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.main-container{
+    width: 100%;
+    min-height: 100vh;
+}
+.icon-svg{
+    width: 24px;
+    height: 24px;
+
+}
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-bottom: solid #d4d4d4 3px;
+
+}
+.menu-items{
+    display: flex;
+    padding: 0px;
+    height: 3rem;
+    margin: 0px;
+    align-items: center;
+
+
+    
+}
+.menu-items li{
+    list-style: none;
+    margin-left: 5px;
+    margin-right: 5PX;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.avatar-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background-color: #025464;
+    border-radius: 50%;
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.cuadradito{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: 240px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 10px;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: #025464;
+    border-radius: 0.5rem;
+    
+    
+}
+.exclamacion{
+    display: flex;
+    list-style: none;
+    padding: 10px ;
+}
+.titulo{
+    display: flex;
+    
+    padding: 10px;
+    
+    list-style: none;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+.cuadrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #DDE6ED;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    width: 165px;
+    height: 100px;
+    padding-left: 15px ;
+    padding-top: 15px;
+    
+    border-color: #213555;
+    border-radius: 0.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif, bold;
+    
+   
+
+}
+.mayor{
+    display: flex;
+    
+   flex-direction: row;
+  
+   align-items: flex-start;
+   margin-left: 90px;
+   margin-right: 50px;
+   
+   
+
+}
+.alargado{
+    display: flex;
+   background-color: #DDE6ED ;
+   border-radius: 0.5rem;
+   align-items: flex-start;
+   align-items: center;
+   padding: 15px;
+   width: 755px;
+   
+   
+   
+   
+}
+.icono{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    width: 40px;
+    height: 40px;
+    background-color: #025464;
+    border-radius: 50%;
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.anuncio{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+ 
+}   
+
+.tarea{
+    display: flex;
+    
+    background-color: #DDE6ED;
+    border-radius: 0.5rem;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+.tapu{
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+}
+.tabletita{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    width: 40px;
+    height: 40px;
+    background-color: #025464;
+    border-radius: 50%;
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    
+}  
+.publicacion{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.puntitos{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+.publicaciones{
+    display: flex;
+    margin-right: 90px;
+    flex-direction: column;
+}
+
